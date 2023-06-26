@@ -54,7 +54,8 @@ export const executeOperation = async (currentDirectory, userInput) => {
       }
 
       case 'os': {
-        return 'Up';
+        await operations.getOSInfo(...args);
+        return result;
       }
 
       case 'hash': {
