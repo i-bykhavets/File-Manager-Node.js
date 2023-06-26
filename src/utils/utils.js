@@ -28,6 +28,6 @@ export const resolvePath = (currentDirectory, path) => {
   if (!isAbsolute(path)) {
     resolvedPath = join(currentDirectory, path);
   }
-  // TODO: check root dir
+
   return resolvedPath;
 }
