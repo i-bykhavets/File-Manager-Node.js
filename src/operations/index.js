@@ -8,3 +8,4 @@ export { copy } from './fileSystem/copy.js';
 export { move } from './fileSystem/move.js';
 export { remove } from './fileSystem/remove.js';
 export { getOSInfo } from './operatingSystem/getOSInfo.js';
+export { calculateHash } from './hash/calculateHash.js';

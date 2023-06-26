@@ -23,7 +23,7 @@ export const getOSInfo = async (infoType) => {
         break;
 
       case 'username':
-        requiredInfo = os.userInfo();
+        requiredInfo = os.userInfo().username;
         break;
 
       case 'architecture':

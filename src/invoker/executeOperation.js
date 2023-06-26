@@ -59,7 +59,8 @@ export const executeOperation = async (currentDirectory, userInput) => {
       }
 
       case 'hash': {
-        return 'Up';
+        await operations.calculateHash(currentDirectory, ...args);
+        return result;
       }
 
       case 'compress': {
