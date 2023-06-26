@@ -1,0 +1,20 @@
+{
+  "name": "file-manager-node",
+  "version": "1.0.0",
+  "description": "File manager using Node.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-bykhavets/File-Manager-Node.js.git"
+  },
+  "author": "Ilya Bykhavets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-bykhavets/File-Manager-Node.js/issues"
+  },
+  "homepage": "https://github.com/i-bykhavets/File-Manager-Node.js#readme"
+}
