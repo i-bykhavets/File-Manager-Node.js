@@ -64,15 +64,17 @@ export const executeOperation = async (currentDirectory, userInput) => {
       }
 
       case 'compress': {
-        return 'Up';
+        await operations.compress(currentDirectory, ...args);
+        return result;
       }
 
       case 'decompress': {
-        return 'Up';
+        await operations.decompress(currentDirectory, ...args);
+        return result;
       }
 
       default: {
-        return 'Up';
+        return result;
       }
     }
   } catch (error) {
